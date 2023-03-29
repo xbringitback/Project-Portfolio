@@ -1,0 +1,261 @@
+@font-face {
+    font-family:didact;
+    src: url(../assets/font/DidactGothic-Regular.ttf);
+}
+@font-face {
+    font-family:fjallaone;
+    src: url(../assets/font/FjallaOne-Regular.ttf);
+}
+@font-face {
+    font-family:worksans;
+    src: url(../assets/font/FjallaOne-Regular.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+header{
+    text-align: center;
+}
+header p{
+    font-family: "worksans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+h1 {
+    font-family: "didact", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+.folio1 {
+    background: url("../assets/img/portfolio1.jpeg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+    width: 720px;
+    margin: auto;
+}
+h2 {
+    font-family: "worksans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 160px;
+    line-height: 300px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 100px auto;
+}
+.folio2 {
+    background: url("../assets/img/portfolio2.jpg") no-repeat center;
+    background-size:cover;
+    background-position:center;
+    height: 826px;
+}
+.folio3 {
+    background: url("../assets/img/portfolio3.png") no-repeat center;
+    background-size:cover;
+    background-position:center;
+    height: 1056px;
+}
+.folio4 {
+    background: url("../assets/img/portfolio4.jpg") no-repeat center;
+    background-size:cover;
+    background-position:center;
+    height: 826px;
+}
+.folio5 {
+    background: url("../assets/img/portfolio5.png") no-repeat center;
+    background-size:cover;
+    background-position:center;
+    height: 1056px;
+}
+section:nth-of-type(6){
+    background-color: black;
+    height: 931px;
+    color: white;
+    padding-top: 10vh;
+}
+footer {
+    height: 1440px;
+    color: black;
+    text-align: center;
+}
+.folio2 article,
+.folio3 article,
+.folio4 article,
+.folio5 article {
+    padding: 20vh 20vw;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: #9e9e9e;
+    font-family: "worksans", Arial, Helvetica, sans-serif;
+}
+.folio2 p:nth-child(1):before,
+.folio3 p:nth-child(1):before,
+.folio4 p:nth-child(1):before,
+.folio5 p:nth-child(1):before {
+    content:"\02015";
+}
+.folio2 h3,
+.folio4 h3 {
+    font-family: "didact", Arial, Helvetica, sans-serif;
+    color:white;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 3vh 0vw;
+}
+.folio3 h3,
+.folio5 h3 {
+    font-family: "didact", Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 3vh 0vw;
+}
+.folio2 button,
+.folio4 button
+ {
+    font-family: "fjallaone", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1.2vh 2.5vh;
+    border: 2px solid #9e9e9e;
+    font-size: 18px;
+}
+.folio3 button,
+.folio5 button {
+    font-family: "fjallaone", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1.2vh 2.5vh;
+    font-size: 18px;
+    color:black;
+    border: 2px solid #000;
+}
+.folio2 p:nth-last-child(2),
+.folio3 p:nth-last-child(2),
+.folio4 p:nth-last-child(2),
+.folio5 p:nth-last-child(2) {
+    margin: 6vh 0vw;
+}
+div p:nth-child(2) {
+    font-family: "fjallaone", Arial, Helvetica, sans-serif;
+    font-size: 18rem;
+    text-align: right;
+    position: absolute;
+    right: 10rem;
+}
+.folio2 div p:nth-child(2),
+.folio4 div p:nth-child(2) {
+    opacity: 0.2;
+}
+.diveinnr1:hover + p,
+.diveinnr3:hover + p {
+    opacity: 1;
+    color:rgb(255, 255, 255);
+}
+.diveinnr1:hover,
+.diveinnr3:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid #666;
+}
+.diveinnr2:hover + p,
+.diveinnr4:hover + p {
+    color:#333;
+}
+.diveinnr2:hover,
+.diveinnr4:hover {
+    background-color: #333;
+    color: white;
+}
+h4 {
+    font-size: 18rem;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-bottom: 15vh;
+}
+section:nth-last-of-type(1) article {
+    margin: 0vh 0vw 20vh 40vw;
+    font-family: "worksans", Arial, Helvetica, sans-serif;
+}
+section:nth-last-of-type(1) article p {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+    color: #666;
+}
+section:nth-last-of-type(1) article a {
+    font-size: 5.2rem;
+    text-decoration: none;
+    color: white
+}
+section:nth-last-of-type(1) article a:hover{
+    text-decoration: underline;
+}
+footer {
+    font-family: "Didact", Arial, Helvetica, sans-serif;
+    font-size: 16rem;
+    height: 200vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+footer a {
+    display: block;
+    margin-bottom: 25vh;
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+	position: absolute;
+    margin-left: 45vw;
+	animation:pulse 1s infinite;
+}
+#pulsingheart { 
+  position: relative; 
+  width: 100px; 
+  height: 90px;
+} 
+
+#pulsingheart:before, 
+#pulsingheart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 50px; 
+  width: 50px; 
+  height: 80px; 
+  background: #000000; 
+  border-radius: 50px 50px 0 0; 
+  transform: rotate(-45deg);  
+  transform-origin: 0 100%;
+  animation:pulsecolor 1s infinite;
+} 
+
+#pulsingheart:after { 
+  left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%;
+  animation:pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.1)}
+}
+
+@keyframes pulsecolor {
+  10% {background: #000000}
+}
